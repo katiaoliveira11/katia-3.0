@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Cadastro de Aluno</h1>
+    <form>
+        <!-- input text -->
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui">
+       
+        <!-- input email -->
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email" placeholder="Digite seu email aqui">
+
+        <!-- input senha -->
+        <label for="Password">Senha: </label>
+        <input type="text" name="password" id="password" placeholder="Digite sua senha aqui">
+
+        <!-- input data -->
+        <label for="Data de nascimento"></label>
+        <input type="date" name="data" id="data" placeholder="Digite sua data de nascimento aqui">
+
+        <!-- input select -->
+        <label for="Cidade">Cidade:</label>
+        <select name="cidade" id="cidade">
+
+            <option>Londrina</option>
+            <option>Cambé</option>
+            <option>Cascavel</option>
+            <option>maringá</option>
+            <option>Alvorada</option>
+
+
+        </select>
+
+        <label for="historico">Já fez o curso? </label>
+        <input type="radio" name="historico">
+        Sim
+
+        <input type="radio" name="historico">
+        Não
+
+        <!-- input checkbox -->
+        <label>
+            <input type="checkbox" name="" id="opcoes">
+            Aceito os termos
+        </label>
+        
+        <!-- textarea -->
+        <label>
+
+            <textarea rows="4"></textarea>
+        </label>
+
+        <!-- botão -->
+        <button type="submit">
+            cadastrar
+        </button>
+
+
+    </form>
+</body>
+</html>
